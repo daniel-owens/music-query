@@ -1,0 +1,81 @@
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+.jumbotron {
+  padding-bottom: 25px;
+  opacity: 0.9;
+  background-color: rgba(221, 221, 221, 0.1);
+
+}
+
+.text-muted {
+  margin-top: 50px;
+  font-family: 'Questrial', sans-serif;
+}
+
+.bottom-line {
+  margin-top: -30px;
+  font-family: 'Questrial', sans-serif;
+}
+
+#background-image {
+  background-image: url("https://images.unsplash.com/35/hKViPxgDRGuiGns6wv5S_IMG_5317.jpeg?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=921adaafeb6478253d83aeaa0eb83f77&auto=format&fit=crop&w=1650&q=80");
+  height: 100%; 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.input-container {
+  margin: auto;
+  margin-left: 195px;
+  width: 50%;
+}
+
+.input-group {
+  bottom: 35px;
+}
+
+.btn-default {
+  background-color: rgb(25, 29, 35, 0.5);
+  color: white;
+}
+
+.form-control {
+  margin-right: -250px;
+  background-color: rgb(221, 221, 221, 0.1);
+  border: none;
+}
+
+
+
+
+
+
+
+
+
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
